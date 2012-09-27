@@ -110,6 +110,16 @@ $year = $date_time_array['year'];
 $timestamp = mktime($hours + 0,$minutes,$seconds,$month,$day,$year);
 $theDate = strftime('%Y-%m-%d %H:%M:%S',$timestamp);	
 
+/**
+ *
+ *
+ *
+ *
+ *  SEARCH TERMS BELOW
+ *
+ *
+ *
+ */
 $q = Array('EntreFirst', 'efbootcamp', 'quantifiedself', 'self-tracking');
 
 echo "<h3>Search Terms</h3>";
